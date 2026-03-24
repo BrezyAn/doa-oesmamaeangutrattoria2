@@ -127,13 +127,8 @@ body {
 
 .hero-bg {
   position: absolute; inset: 0;
-  background: url('bg-1.jpg') center center / cover no-repeat;
+  background: url('bg-1.jpg') center center / 100% 100% no-repeat;
   z-index: 0;
-  animation: kenBurns 24s ease-in-out infinite alternate;
-}
-@keyframes kenBurns {
-  from { transform: scale(1); }
-  to   { transform: scale(1.07) translateX(-1%); }
 }
 
 /* overlay mais claro e quente */
